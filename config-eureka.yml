@@ -20,7 +20,7 @@ eureka:
 server:
   port: 700l
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-config-eureka
 eureka:
