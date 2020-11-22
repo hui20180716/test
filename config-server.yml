@@ -1,0 +1,22 @@
+spring:
+  profiles: 
+    active: dev
+spring:
+  profiles: dev
+  application:
+    name: springcloud-consumer-dept-80
+#Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+      
+spring:
+  profiles: dev
+  application:
+    name: springcloud-consumer-dept-80
+#Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/  
