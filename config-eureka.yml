@@ -3,7 +3,7 @@ spring:
     active: dev
 ---
 server:
-  port: 700l
+  port: 7001
 spring:
   profiles: dev
   application:
@@ -18,7 +18,7 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 ---
 server:
-  port: 700l
+  port: 7001
 spring:
   profiles: test
   application:
