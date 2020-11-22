@@ -1,22 +1,21 @@
 spring:
-  profiles: 
+  profiles:
     active: dev
- ---
- server:
-  port: 8201
+---
+  server:
+    port: 8201
 spring:
   profiles: dev
   application:
     name: springcloud-consumer-dept-80
 #Eureka
-
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
 ---
 server:
-  port: 8202      
+  port: 8202
 spring:
   profiles: dev
   application:
